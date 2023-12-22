@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import "./dashboard.css"
-const Dasboard = () => {
+const Dashboard = () => {
   return (
     <div className="grid-container">
       <Navbar />
@@ -10,4 +10,4 @@ const Dasboard = () => {
   );
 };
 
-export default Dasboard;
+export default Dashboard;

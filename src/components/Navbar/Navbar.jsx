@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { BsPersonCircle, BsJustify } from "react-icons/bs";
-import { Link} from "react-router-dom";
 import "./navbar.css"
 import Sidebar from "../sidebar/Sidebar";
-
+import search from "../../assets/Search.svg"
+import help from "../../assets/Help.svg";
+import menu from "../../assets/Menu.svg"
+import group from "../../assets/Group.svg"
 const Navbar = () => {
   const [openSidebarToggle, setOpenSidebarToggle] = useState(false);
   const OpenSidebar = () => {
@@ -13,16 +14,24 @@ const Navbar = () => {
   return (
     <>
       <header className="header">
-        <div className="menu-icon-header">
-          <BsJustify className="icons" onClick={OpenSidebar} />
+        <div className="menu-icon-left">
+          <p>
+            {" "}
+            <img src={help} alt="" />
+            How it works
+          </p>
         </div>
-        <div className="header-left">
-          <Link to="/admin">
-            <img src={''} alt="logo" />
-          </Link>
+        <div className="menu-icon-center">
+          <img src={search} alt="" />
+          <input type="text" placeholder="Search features,tutorials,etc." />
         </div>
-        <div className="header-right">
-          <BsPersonCircle className="icons" />
+        <div className="header-icon-right">
+          <div className="header-icon-right-inner">
+            <div className="img-right">
+              <img src={group} alt="" />
+            </div>
+            <img src={menu} alt="" />
+          </div>
         </div>
       </header>
       <Sidebar

@@ -1,9 +1,9 @@
 import "./App.css";
-import Dasboard from "./Dashboard/Dasboard";
+import Dashboard from "./Dashboard/Dashboard";
 function App() {
   return (
     <div className="App">
-      <Dasboard />
+      <Dashboard />
     </div>
   );
 }
