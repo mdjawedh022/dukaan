@@ -38,9 +38,12 @@
   gap: 16px;
   align-self: stretch;
   border-radius: 8px;
+  
   background: var(--Primary-Blue, #146eb4);
 }
-
+.parent-card .first-child{
+  color: white;
+}
 .card {
   display: flex;
   flex-direction: row;
@@ -73,7 +76,7 @@
 }
 
 .first-child {
-  color: var(--Black-100, #fff);
+  color:  #fff;
   font-family: Galano Grotesque;
   font-size: 32px;
   font-style: normal;
@@ -88,7 +91,7 @@
 }
 
 .main-child p {
-  color: var(--Black-100, #fff);
+  color:  #fff;
   font-family: Galano Grotesque;
   font-size: 16px;
   font-style: normal;
@@ -195,7 +198,8 @@
 }
 
 .transaction {
-  margin-top: 10px;
+  margin-top: 32px;
+  margin-bottom: 7px;
 }
 
 .month {
@@ -211,6 +215,7 @@
   align-items: center;
   gap: 20px;
   margin-top: 10px;
+  margin-bottom: 7px;
 }
 
 .btn button {
@@ -290,36 +295,93 @@
 /* Table Section */
 .table {
   margin-top: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
 }
 
 .table .custom-table {
   border-collapse: collapse;
   width: 100%;
   color: black;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .table .custom-table th {
   padding: 8px;
   text-align: left;
   background-color: #f2f2f2;
+  color: #808080;
 }
 
 .table .custom-table td {
   padding: 8px;
   text-align: left;
+  border-bottom: 1px solid #e9e6e6; /* Add bottom border for all cells */
 }
 
 .table .custom-table tr {
-  border: 1px solid #ddd;
+  border: none; /* Remove all borders for rows */
+}
+
+.table .custom-table tr:last-child td {
+  border-bottom: none; /* Remove bottom border for the last row */
 }
 
 .table .custom-table tr td:nth-child(1) {
-  padding: 0px 50px;
+  padding:0 50px;
 }
-
+.td-₹{
+  color: #636262;
+}
 .table .custom-table .first {
   display: flex;
   align-items: center;
   gap: 5px;
 }
+
+.table1 {
+  margin-top: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+}
+
+.table1 .custom-table1 {
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+  font-size: 14px;
+}
+
+.table1 .custom-table1 th {
+  padding: 8px;
+  text-align: left;
+  background-color: #f2f2f2;
+  color: #808080;
+}
+
+.table1 .custom-table1 td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #e9e6e6;
+}
+
+.table .custom-table tr {
+  border: none; 
+}
+
+.table1 .custom-table1 tr:last-child td {
+  border-bottom: none;
+}
+
+.table1 .custom-table1 tr td:nth-child(1) {
+color: #146EB4; 
+}
+.td-₹{
+  color: #636262;
+}
+.table1 .custom-table1 .first1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+

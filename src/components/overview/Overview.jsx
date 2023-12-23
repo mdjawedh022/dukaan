@@ -125,10 +125,10 @@ function Overview() {
                     <img src={process} alt="" />
                     Processing
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td className="td-₹">131634495747</td>
+                  <td>₹10,125.00</td>
+                  <td>₹1,125.00</td>
+                  <td className="td-₹">₹9,312</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -136,10 +136,10 @@ function Overview() {
                     <img src={success} alt="" />
                     Successful
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td className="td-₹">131634495747</td>
+                  <td>₹10,125.00</td>
+                  <td>₹1,125.00</td>
+                  <td className="td-₹">₹9,312</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -147,10 +147,10 @@ function Overview() {
                     <img src={success} alt="" />
                     Successful
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td className="td-₹">131634495747</td>
+                  <td>₹10,125.00</td>
+                  <td>₹1,125.00</td>
+                  <td className="td-₹">₹9,312</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -158,10 +158,10 @@ function Overview() {
                     <img src={success} alt="" />
                     Successful
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td className="td-₹">131634495747</td>
+                  <td>₹10,125.00</td>
+                  <td>₹1,125.00</td>
+                  <td className="td-₹">₹9,312</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -169,10 +169,10 @@ function Overview() {
                     <img src={success} alt="" />
                     Successful
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td className="td-₹">131634495747</td>
+                  <td>₹10,125.00</td>
+                  <td>₹1,125.00</td>
+                  <td className="td-₹">₹9,312</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -180,10 +180,10 @@ function Overview() {
                     <img src={success} alt="" />
                     Successful
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td className="td-₹">131634495747</td>
+                  <td>₹10,125.00</td>
+                  <td>₹1,125.00</td>
+                  <td className="td-₹">₹9,312</td>
                 </tr>
                 <tr>
                   <td></td>
@@ -191,21 +191,20 @@ function Overview() {
                     <img src={success} alt="" />
                     Successful
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td className="td-₹">131634495747</td>
+                  <td>₹10,125.00</td>
+                  <td>₹1,125.00</td>
+                  <td className="td-₹">₹9,312</td>
                 </tr>
               </tbody>
             </table>
           </div>
         ) : (
-          <div className="table">
-            <table className="custom-table">
+          <div className="table1">
+            <table className="custom-table1">
               <thead>
                 <tr>
                   <th>Order Id</th>
-                  <th></th>
                   <th>Status</th>
                   <th>Trasaction Id</th>
                   <th>Refund Date</th>
@@ -214,81 +213,75 @@ function Overview() {
               </thead>
               <tbody>
                 <tr>
-                  <td></td>
-                  <td className="first">
+                  <td>#281209</td>
+                  <td className="first1">
+                    <img src={success} alt="" />
+                    Successful
+                  </td>
+                  <td>131634495747</td>
+                  <td>Today, 08:45 PM</td>
+                  <td>₹1,125.00</td>
+                </tr>
+                <tr>
+                  <td>#281209</td>
+
+                  <td className="first1">
                     <img src={process} alt="" />
                     Processing
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td>131634495747</td>
+                  <td>Yesterday, 3:00 PM</td>
+                  <td>₹1,125.00</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td className="first">
+                  <td>#281209</td>
+                  <td className="first1">
                     <img src={success} alt="" />
                     Successful
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td>131634495747</td>
+                  <td>12 Jul 2023, 03:00 PM</td>
+                  <td>₹1,125.00</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td className="first">
+                  <td>#281209</td>
+                  <td className="first1">
                     <img src={success} alt="" />
                     Successful
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td>131634495747</td>
+                  <td>12 Jul 2023, 03:00 PM</td>
+                  <td>₹1,125.00</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td className="first">
+                  <td>#281209</td>
+                  <td className="first1">
                     <img src={success} alt="" />
                     Successful
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td>131634495747</td>
+                  <td>12 Jul 2023, 03:00 PM</td>
+                  <td>₹1,125.00</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td className="first">
+                  <td>#281209</td>
+                  <td className="first1">
                     <img src={success} alt="" />
                     Successful
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td>131634495747</td>
+                  <td>12 Jul 2023, 03:00 PM</td>
+                  <td>₹1,125.00</td>
                 </tr>
                 <tr>
-                  <td></td>
-                  <td className="first">
+                  <td>#281209</td>
+                  <td className="first1">
                     <img src={success} alt="" />
                     Successful
                   </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td className="first">
-                    <img src={success} alt="" />
-                    Successful
-                  </td>
-                  <td>Row Col 3</td>
-                  <td>Row Col 4</td>
-                  <td>Row Col 5</td>
-                  <td>Row Col 5</td>
+                  <td>131634495747</td>
+                  <td>12 Jul 2023, 03:00 PM</td>
+                  <td>₹1,125.00</td>
                 </tr>
               </tbody>
             </table>
